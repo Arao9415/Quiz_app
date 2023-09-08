@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.choice {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #005A8C;
+}
+
+#submit-button {
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #45A049;
+}
